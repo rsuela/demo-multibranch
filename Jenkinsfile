@@ -27,25 +27,16 @@ pipeline {
             failFast true
             parallel {
                 stage('Childsupport') {
-                    agent {
-                        label "windows"
-                    }
                     steps {
                         echo "Childsupport"
                     }
                 }
                 stage('Kiwisaver') {
-                    agent {
-                        label "windows"
-                    }
                     steps {
                         echo "Kiwisaver"
                     }
                 }
                 stage('Studentloan') {
-                    agent {
-                        label "windows"
-                    }
                     steps {
                         echo "Studentloan"
                     }
