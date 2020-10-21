@@ -52,5 +52,11 @@ pipeline {
                 }
             }
         }
+        
+        stage('Report'){
+          steps {
+            echo "Reporting goes here"
+          }
+        }
     }
 }
