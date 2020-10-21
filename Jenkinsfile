@@ -46,7 +46,7 @@ pipeline {
         
         stage('Report'){
           steps {
-            echo "testing"
+            echo "changes v2"
           }
         }
     }
